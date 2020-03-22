@@ -1,0 +1,28 @@
+{
+  "name": "ts-starter",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "serve": "node dist/",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch --runInBand",
+    "test:cover": "jest --coverage --runInBand",
+    "lint": "./node_modules/.bin/eslint src tests"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jest": "latest",
+    "eslint-plugin-unicorn": "latest",
+    "jest": "latest"
+  },
+  "_moduleAliases": {
+    "@domain": "dist/domain"
+  }
+}
