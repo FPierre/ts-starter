@@ -15,12 +15,15 @@
     "module-alias": "^2.2.2"
   },
   "devDependencies": {
+    "@types/jest": "^25.1.4",
     "eslint": "^6.0.0",
     "eslint-config-airbnb-base": "latest",
     "eslint-plugin-import": "latest",
     "eslint-plugin-jest": "latest",
     "eslint-plugin-unicorn": "latest",
-    "jest": "latest"
+    "jest": "latest",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
   },
   "_moduleAliases": {
     "@domain": "dist/domain"
