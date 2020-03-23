@@ -9,13 +9,15 @@
     "test": "jest --runInBand",
     "test:watch": "jest --watch --runInBand",
     "test:cover": "jest --coverage --runInBand",
-    "lint": "./node_modules/.bin/eslint src tests"
+    "lint": "./node_modules/.bin/eslint './src/**/*.ts'"
   },
   "dependencies": {
     "module-alias": "^2.2.2"
   },
   "devDependencies": {
     "@types/jest": "^25.1.4",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
     "eslint": "^6.0.0",
     "eslint-config-airbnb-base": "latest",
     "eslint-plugin-import": "latest",

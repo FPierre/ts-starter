@@ -1,11 +1,33 @@
 module.exports = {
+  // root: true,
+  parser: '@typescript-eslint/parser',
+  // settings: {
+    // 'import/parsers': {
+    //   '@typescript-eslint/parser': ['.ts'],
+    // },
+
+    // 'import/extensions': [
+    //   '.ts',
+    // ],
+
+    // 'import/resolver': {
+    //   node: {
+    //     extensions: ['.ts'],
+    //     moduleDirectory: ['src/'],
+    //   },
+    // },
+  // },
   extends: [
-    'plugin:jest/recommended',
+    // 'airbnb-base',
+    'plugin:@typescript-eslint/recommended',
+    // 'plugin:jest/recommended',
   ],
-  plugins: [
-    'jest',
-  ],
+  // plugins: [
+  //   'unicorn',
+  //   'jest',
+  // ],
   env: {
-    'jest/globals': true,
+    // node: true,
+    // 'jest/globals': true,
   },
 };

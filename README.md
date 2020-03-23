@@ -1,5 +1,6 @@
 # TS starter
 
+* Yarn
 * TypeScript
 * Jest
-* Yarn 2
+* ESlint
