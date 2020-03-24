@@ -1,6 +1,1 @@
-# TS starter
-
-* Yarn
-* TypeScript
-* Jest
-* ESlint
+# La Cuisine

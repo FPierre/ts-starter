@@ -4,7 +4,8 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "./node_modules/.bin/tsc",
+    "build:watch": "./node_modules/.bin/tsc -w",
     "serve": "node dist/",
     "test": "jest --runInBand",
     "test:watch": "jest --watch --runInBand",
