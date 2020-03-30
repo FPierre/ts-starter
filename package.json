@@ -4,9 +4,9 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
+    "serve": "node dist/",
     "build": "./node_modules/.bin/tsc",
     "build:watch": "./node_modules/.bin/tsc -w",
-    "serve": "node dist/",
     "test": "jest --runInBand",
     "test:watch": "jest --watch --runInBand",
     "test:cover": "jest --coverage --runInBand",
@@ -16,17 +16,17 @@
     "module-alias": "^2.2.2"
   },
   "devDependencies": {
-    "@types/jest": "^25.1.4",
+    "@types/jest": "^25.0.0",
     "@typescript-eslint/eslint-plugin": "^2.24.0",
     "@typescript-eslint/parser": "^2.24.0",
     "eslint": "^6.0.0",
     "eslint-config-airbnb-base": "latest",
-    "eslint-plugin-import": "latest",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "latest",
-    "eslint-plugin-unicorn": "latest",
-    "jest": "latest",
-    "ts-jest": "^25.2.1",
-    "typescript": "^3.8.3"
+    "eslint-plugin-unicorn": "^18.0.1",
+    "jest": "^25.2.4",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.8.0"
   },
   "_moduleAliases": {
     "@domain": "dist/domain"
