@@ -21,10 +21,13 @@
     "@typescript-eslint/parser": "^2.24.0",
     "eslint": "^6.0.0",
     "eslint-config-airbnb-base": "latest",
+    "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "latest",
+    "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-unicorn": "^18.0.1",
     "jest": "^25.2.4",
+    "prettier": "^2.0.0",
     "ts-jest": "^25.2.0",
     "typescript": "^3.8.0"
   },
