@@ -10,7 +10,8 @@
     "test": "jest --runInBand",
     "test:watch": "jest --watch --runInBand",
     "test:cover": "jest --coverage --runInBand",
-    "lint": "./node_modules/.bin/eslint './src/**/*.ts'"
+    "lint": "./node_modules/.bin/eslint src --ext .ts",
+    "prettier": "./node_modules/.bin/prettier --write './src/**/*.ts'"
   },
   "dependencies": {
     "module-alias": "^2.2.2"

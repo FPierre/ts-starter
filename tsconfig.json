@@ -13,13 +13,14 @@
     "sourceMap": false,
     "paths": {
       // "@domain/*": ["domain/*"],
-    }
+    },
   },
   "include": [
-    "src/**/*.ts", "src/index.spec.ts"
+    "src/**/*.ts",
+    "src/index.spec.ts",
   ],
   "exclude": [
     "node_modules",
-    "dist"
-  ]
+    "dist",
+  ],
 }
