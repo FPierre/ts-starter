@@ -10,17 +10,10 @@
     "noImplicitAny": true,
     "noImplicitThis": true,
     "strictNullChecks": true,
-    "sourceMap": false,
     "paths": {
       // "@domain/*": ["domain/*"],
-    },
+    }
   },
-  "include": [
-    "src/**/*.ts",
-    "src/index.spec.ts",
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-  ],
+  "include": ["src/**/*.ts", "src/index.spec.ts"],
+  "exclude": ["node_modules", "dist"]
 }
