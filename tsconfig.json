@@ -4,16 +4,18 @@
     "outDir": "dist",
     "module": "commonjs",
     "moduleResolution": "node",
-    "esModuleInterop": true,
     "target": "esnext",
     "allowJs": false,
+    "esModuleInterop": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
+    "removeComments": true,
+    "strict": true,
     "strictNullChecks": true,
     "paths": {
-      // "@domain/*": ["domain/*"],
+      // '@domain/*': ['domain/*'],
     }
   },
-  "include": ["src/**/*.ts", "src/index.spec.ts"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["dist", "node_modules", "**/*.spec.ts"]
 }
